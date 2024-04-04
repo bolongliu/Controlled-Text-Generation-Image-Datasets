@@ -59,9 +59,42 @@
   - 地址：https://github.com/google/dreambooth
   - 简介：该数据集包括 15 个不同类别的 30 个科目。其中 9 个是活体主体（狗和猫），21 个是物体。该数据集包含每个主题的可变数量的图像 (4-6)。
 ## 3. 可控文本生成图像数据集
-
-
-
+- COCO-Stuff Dataset
+  - 地址：https://github.com/nightrome/cocostuff
+  - 简介：COCO-Stuff 使用像素级内容注释增强了流行的 COCO [2] 数据集的所有 164K 图像。这些注释可用于场景理解任务，例如语义分割、对象检测和图像字幕。
+  - 命令行下载
+  ```
+  # Get this repo
+  git clone https://github.com/nightrome/cocostuff.git
+  cd cocostuff
+  
+  # Download everything
+  wget --directory-prefix=downloads http://images.cocodataset.org/zips/train2017.zip
+  wget --directory-prefix=downloads http://images.cocodataset.org/zips/val2017.zip
+  wget --directory-prefix=downloads http://calvin.inf.ed.ac.uk/wp-content/uploads/data/cocostuffdataset/stuffthingmaps_trainval2017.zip
+  
+  # Unpack everything
+  mkdir -p dataset/images
+  mkdir -p dataset/annotations
+  unzip downloads/train2017.zip -d dataset/images/
+  unzip downloads/val2017.zip -d dataset/images/
+  unzip downloads/stuffthingmaps_trainval2017.zip -d dataset/annotations/
+  ```
+-  Pick-a-Pic：用于文本到图像生成的用户首选项的开放数据集。
+  - 地址：https://huggingface.co/datasets/yuvalkirstain/pickapic_v1
+  - 简介：Pick-a-Pic 数据集是通过 Pick-a-Pic Web 应用程序收集的，包含超过 50 万个人类对模型生成图像的偏好示例。可以在此处找到带有 URL 而不是实际图像（这使其尺寸小得多）的数据集。
+  - 命令行下载【国内加速】
+  ```
+  1. 下载hfd
+  wget https://hf-mirror.com/hfd/hfd.sh
+  chmod a+x hfd.sh
+  2. 设置环境变量
+  export HF_ENDPOINT=https://hf-mirror.com
+  3.1 下载模型
+  ./hfd.sh gpt2 --tool aria2c -x 4
+  3.2 下载数据集
+  ./hfd.sh yuvalkirstain/pickapic_v1 --dataset --tool aria2c -x 4
+  ```
 
 
 ## 3D 数据集
