@@ -21,8 +21,37 @@
 - Flickr 30k Dataset
   - 地址：https://shannon.cs.illinois.edu/DenotationGraph/data/index.html
   - [简介](https://shannon.cs.illinois.edu/DenotationGraph/data/index.html)：Flickr 30k 数据集包括从Flickr获取的图像。
+
+- COCO（COCO Captions） Dataset
+  - 地址：https://cocodataset.org/#download
+  - [简介](https://cocodataset.org/#home)：COCO Captions是一个字幕数据集，它以场景理解为目标，从日常生活场景中捕获图片数据，通过人工生成图片描述。该数据集包含330K个图文对。
+
+- Visual Genome Dataset
+  - 地址：http://visualgenome.org/
+  - [简介](http://visualgenome.org/)：Visual Genome是李飞飞在2016年发布的大规模图片语义理解数据集，含图像和问答数据。标注密集，语义多样。该数据集包含5M个图文对。
+    
+- Conceptual Captions（CC） Dataset
+  - 地址：https://ai.google.com/research/ConceptualCaptions/download
+  - [简介](https://ai.google.com/research/ConceptualCaptions/download)：Conceptual Captions（CC）是一个非人工注释的多模态数据，包含图像URL以及字幕。对应的字幕描述是从网站的alt-text属性过滤而来。CC数据集因为数据量的不同分为CC3M（约330万对图文对）以及CC12M（约1200万对图文对）两个版本。
+
+- YFCC100M Dataset
+  - 地址：http://projects.dfki.uni-kl.de/yfcc100m/
+  - [简介](http://projects.dfki.uni-kl.de/yfcc100m/)：YFCC100M数据库是2014年来基于雅虎Flickr的影像数据库。该库由一亿条产生于2004年至2014年间的多条媒体数据组成，其中包含了9920万张的照片数据以及80万条视频数据。YFCC100M数据集是在数据库的基础之上建立了一个文本数据文档，文档中每一行都是一条照片或视频的元数据。
  
-  - 
+- ALT200M Dataset
+  - 地址：无
+  - [简介]：ALT200M是微软团队为了研究缩放趋势在描述任务上的特点而构建的一个大规模图像-文本数据集。该数据集包含200M个图像-文本对。对应的文本描述是从网站的alt-text属性过滤而来。（私有数据集，无数据集链接）
+    
+- LAION-400M Dataset
+  - 地址：https://laion.ai/blog/laion-400-open-dataset/
+  - [简介](https://laion.ai/blog/laion-400-open-dataset/)：LAION-400M通过CommonCrwal获取2014-2021年网页中的文本和图片，然后使用CLIP过滤掉图像和文本嵌入相似度低于0.3的图文对，最终保留4亿个图像-文本对。然而，LAION-400M含有大量令人不适的图片，对文图生成任务影响较大。很多人用该数据集来生成色情图片，产生不好的影响。因此，更大更干净的数据集成为需求。
+
+- LAION-5B Dataset
+  - 地址：https://laion.ai/blog/laion-5b/
+  - [简介](https://laion.ai/blog/laion-5b/)：LAION-5B是目前已知且开源的最大规模的多模态数据集。它通过CommonCrawl获取文本和图片，然后使用CLIP过滤掉图像和文本嵌入相似度低于0.28的图文对，最终保留下来50亿个图像-文本对。该数据集包含23.2亿的英文描述，22.6亿个100+其他语言以及12.7亿的未知语。
+
+
+
 ## 2. 文生图微调数据集
 - DreamBooth：微调文本到图像的扩散模型以实现主题驱动的生成
   - 地址：https://github.com/google/dreambooth
