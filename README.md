@@ -1,6 +1,8 @@
 # Controlled-Text-Generation-Image-Datasets
 可控文本到图像生成数据集
 
+## 2D 数据集
+
 ## 1. 预训练数据集
 - Noah-Wukong Dataset
   - 地址：https://wukong-dataset.github.io/wukong-dataset/download.html
@@ -56,4 +58,15 @@
 - DreamBooth：微调文本到图像的扩散模型以实现主题驱动的生成
   - 地址：https://github.com/google/dreambooth
   - 简介：该数据集包括 15 个不同类别的 30 个科目。其中 9 个是活体主体（狗和猫），21 个是物体。该数据集包含每个主题的可变数量的图像 (4-6)。
+## 3. 可控文本生成图像数据集
+
+
+
+
+
+## 3D 数据集
+## 1. 预训练数据集
+
+## 2. 文生图微调数据集
+
 ## 3. 可控文本生成图像数据集
