@@ -18,8 +18,11 @@
        - ICR我们收集了 200,000 个图像-文本对。它包含图像到文本检索和文本到图像检索任务。
        - IQR IQR 也被提出用于图像文本检索任务。我们随机选择 200,000 个查询和相应的图像作为类似于 IQM 的带注释的图像-查询对。
        - Flickr30k-CNA我们聚集了专业的英汉语言学家，精心重新翻译Flickr30k的所有数据，并仔细检查每个句子。北京魔数数据科技有限公司为本数据集的翻译做出了贡献。
-   
-
+- Flickr 30k Dataset
+  - 地址：https://shannon.cs.illinois.edu/DenotationGraph/data/index.html
+  - [简介](https://shannon.cs.illinois.edu/DenotationGraph/data/index.html)：Flickr 30k 数据集包括从Flickr获取的图像。
+ 
+  - 
 ## 2. 文生图微调数据集
 - DreamBooth：微调文本到图像的扩散模型以实现主题驱动的生成
   - 地址：https://github.com/google/dreambooth
