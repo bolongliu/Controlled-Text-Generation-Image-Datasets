@@ -24,10 +24,6 @@
   - 地址：https://shannon.cs.illinois.edu/DenotationGraph/data/index.html
   - [简介](https://shannon.cs.illinois.edu/DenotationGraph/data/index.html)：Flickr 30k 数据集包括从Flickr获取的图像。
 
-- **COCO（COCO Captions） Dataset**
-  - 地址：https://cocodataset.org/#download
-  - [简介](https://cocodataset.org/#home)：COCO Captions是一个字幕数据集，它以场景理解为目标，从日常生活场景中捕获图片数据，通过人工生成图片描述。该数据集包含330K个图文对。
-  - 样本示例 ![image](https://github.com/bolongliu/Controlled-Text-Generation-Image-Datasets/assets/92673294/bc65a58b-175f-4088-9323-c65cd2873064)
 
 - Visual Genome Dataset
   - 地址：http://visualgenome.org/
@@ -93,7 +89,7 @@
   - 地址：https://github.com/google/dreambooth
   - 简介：该数据集包括 15 个不同类别的 30 个科目。其中 9 个是活体主体（狗和猫），21 个是物体。该数据集包含每个主题的可变数量的图像 (4-6)。
 ## 3. 可控文本生成图像数据集
-- COCO-Stuff Dataset
+- **COCO-Stuff** Dataset
   - 地址：https://github.com/nightrome/cocostuff
   - 简介：COCO-Stuff 使用像素级内容注释增强了流行的 COCO [2] 数据集的所有 164K 图像。这些注释可用于场景理解任务，例如语义分割、对象检测和图像字幕。
   - 命令行下载
@@ -141,9 +137,21 @@
   - 地址：https://mmlab.ie.cuhk.edu.hk/projects/DeepFashion.html
   - [简介](https://mmlab.ie.cuhk.edu.hk/projects/DeepFashion.html)：该数据集包括 15 个不同类别的 30 个科目。其中 9 个是活体主体（狗和猫），21 个是物体。该数据集包含每个主题的可变数量的图像 (4-6)。
   - 论文：[ViscoNet: Bridging and Harmonizing Visual and Textual Conditioning for ControlNet](https://arxiv.org/pdf/2312.03154.pdf)
- 
 
-https://mmlab.ie.cuhk.edu.hk/projects/DeepFashion.html
+- **COCO（COCO Captions） Dataset**
+  - 地址：https://cocodataset.org/#download
+  - [简介](https://cocodataset.org/#home)：COCO Captions是一个字幕数据集，它以场景理解为目标，从日常生活场景中捕获图片数据，通过人工生成图片描述。该数据集包含330K个图文对。
+  - 论文 [Text to image generation Using Generative Adversarial Networks (GANs)](https://github.com/ayansengupta17/GAN)
+  - 样本示例 ![image](https://github.com/bolongliu/Controlled-Text-Generation-Image-Datasets/assets/92673294/bc65a58b-175f-4088-9323-c65cd2873064)
+
+- **CUBS-2000-2021 Dataset**
+  - 地址：https://www.vision.caltech.edu/datasets/cub_200_2011/
+  - 相关数据：https://www.vision.caltech.edu/datasets/
+  - [简介](https://www.vision.caltech.edu/datasets/)：该数据集由加州理工学院在2010年提出的细粒度数据集，也是目前细粒度分类识别研究的基准图像数据集。该数据集共有11788张鸟类图像，包含200类鸟类子类，其中训练数据集有5994张图像，测试集有5794张图像，每张图像均提供了图像类标记信息，图像中鸟的bounding box，鸟的关键part信息，以及鸟类的属性信息。
+  - 论文 [Text to image generation Using Generative Adversarial Networks (GANs)](https://github.com/ayansengupta17/GAN)
+  - 样本示例 ![image](https://github.com/bolongliu/Controlled-Text-Generation-Image-Datasets/assets/92673294/2fe78b0b-31f3-4373-ab94-87e57ed70de7)
+
+
 ## 3D 数据集
 ## 1. 预训练数据集
 - Multimodal3DIdent：从可控地面真实因素生成的图像/文本对的多模态数据集
