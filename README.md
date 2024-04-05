@@ -71,6 +71,20 @@
   - [简介](https://github.com/kakaobrain/coyo-dataset/tree/main)：COYO-700M 是一个大型数据集，包含 747M 个图像文本对以及许多其他元属性，以提高训练各种模型的可用性。我们的数据集遵循与之前的视觉和语言数据集类似的策略，收集 HTML 文档中许多信息丰富的替代文本及其相关图像对。我们期望 COYO 用于训练流行的大规模基础模型，与其他类似数据集互补。
   - 样本示例 ![image](https://github.com/bolongliu/Controlled-Text-Generation-Image-Datasets/assets/92673294/a603c8f0-2795-41bf-aee8-bb31207171d2)
 
+- WIT：基于维基百科的图像文本数据集
+  - 地址：https://github.com/google-research-datasets/wit
+  - [简介](https://github.com/google-research-datasets/wit)：基于维基百科的图像文本（WIT）数据集是一个大型多模态多语言数据集。 WIT 由一组精选的 3760 万个实体丰富的图像文本示例组成，其中包含 1150 万个跨 108 种维基百科语言的独特图像。其大小使得 WIT 能够用作多模式机器学习模型的预训练数据集。
+  - 论文 [WIT: Wikipedia-based Image Text Dataset for Multimodal Multilingual Machine Learning](https://arxiv.org/pdf/2103.01913.pdf)
+  - 样本示例 ![image](https://github.com/bolongliu/Controlled-Text-Generation-Image-Datasets/assets/92673294/77851e32-1153-488e-99c7-39c154a126d6)
+
+
+- DiffusionDB
+  - 地址：https://huggingface.co/datasets/poloclub/diffusiondb
+  - [简介](https://github.com/poloclub/diffusiondb)：DiffusionDB 是第一个大规模文本到图像提示数据集。它包含由稳定扩散使用真实用户指定的提示和超参数生成的 1400 万张图像。这个人类驱动的数据集前所未有的规模和多样性为理解提示和生成模型之间的相互作用、检测深度伪造以及设计人机交互工具以帮助用户更轻松地使用这些模型提供了令人兴奋的研究机会。DiffusionDB 2M 中的 200 万张图像被分为 2,000 个文件夹，其中每个文件夹包含 1,000 个图像和一个 JSON 文件，该文件将这 1,000 个图像链接到它们的提示和超参数。同样，DiffusionDB Large 中的 1400 万张图像被分为 14000 个文件夹。
+  - 论文 [DiffusionDB: A Large-scale Prompt Gallery Dataset for Text-to-Image Generative Models](https://arxiv.org/pdf/2210.14896.pdf)
+  - 样本示例 ![image](https://github.com/bolongliu/Controlled-Text-Generation-Image-Datasets/assets/92673294/9eb37d8c-be99-4443-af43-8bcae8dd0584)
+
+
 
 
 
