@@ -110,7 +110,7 @@
   unzip downloads/val2017.zip -d dataset/images/
   unzip downloads/stuffthingmaps_trainval2017.zip -d dataset/annotations/
   ```
--  Pick-a-Pic：用于文本到图像生成的用户首选项的开放数据集。
+-  ***Pick-a-Pic：用于文本到图像生成的用户首选项的开放数据集**
   - 地址：https://huggingface.co/datasets/yuvalkirstain/pickapic_v1
   - 简介：Pick-a-Pic 数据集是通过 Pick-a-Pic Web 应用程序收集的，包含超过 50 万个人类对模型生成图像的偏好示例。可以在此处找到带有 URL 而不是实际图像（这使其尺寸小得多）的数据集。
   - 命令行下载【国内加速】
@@ -150,6 +150,37 @@
   - [简介](https://www.vision.caltech.edu/datasets/)：该数据集由加州理工学院在2010年提出的细粒度数据集，也是目前细粒度分类识别研究的基准图像数据集。该数据集共有11788张鸟类图像，包含200类鸟类子类，其中训练数据集有5994张图像，测试集有5794张图像，每张图像均提供了图像类标记信息，图像中鸟的bounding box，鸟的关键part信息，以及鸟类的属性信息。
   - 论文 [Text to image generation Using Generative Adversarial Networks (GANs)](https://github.com/ayansengupta17/GAN)
   - 样本示例 ![image](https://github.com/bolongliu/Controlled-Text-Generation-Image-Datasets/assets/92673294/2fe78b0b-31f3-4373-ab94-87e57ed70de7)
+
+- **102 Category Flower Dataset**
+  - 地址：https://www.robots.ox.ac.uk/~vgg/data/flowers/102/
+  - [简介](https://www.robots.ox.ac.uk/~vgg/data/flowers/102/)：我们创建了一个 102 个类别的数据集，由 102 个花卉类别组成。这些花被选为英国常见的花。每个类别由 40 到 258 张图像组成。
+  - 样本示例 ![image](https://github.com/bolongliu/Controlled-Text-Generation-Image-Datasets/assets/92673294/b89fa24d-2711-406f-8657-dc20587fe469)
+
+- **Flickr8k_dataset**
+  - 地址：https://www.robots.ox.ac.uk/~vgg/data/flowers/102/
+  - [简介](https://www.robots.ox.ac.uk/~vgg/data/flowers/102/)：用于基于句子的图像描述和搜索的新基准集合，由 8,000 张图像组成，每张图像都配有五个不同的标题，这些标题提供了对显着实体和事件的清晰描述。这些图像是从六个不同的 Flickr 组中选出的，往往不包含任何知名人物或地点，而是手动选择来描绘各种场景和情况
+  - 论文：Caption to Image generation using Deep Residual Generative Adversarial Networks [DR-GAN]
+  ```
+    Flickr8k_Dataset.zip https://github.com/jbrownlee/Datasets/releases/download/Flickr8k/Flickr8k_Dataset.zip
+    Flickr8k_text.zip https://github.com/jbrownlee/Datasets/releases/download/Flickr8k/Flickr8k_text.zip
+  ```
+
+- **Nouns Dataset**自动添加标题的名词数据集卡
+  - 地址：https://huggingface.co/datasets/m1guelpf/nouns
+  - [简介](https://huggingface.co/datasets/m1guelpf/nouns)：用于训练名词文本到图像模型的数据集，根据名词的属性、颜色和项目自动生成名词的标题。对于每一行，数据集包含 image 和 text 键。 image 是不同大小的 PIL jpeg， text 是随附的文本标题。仅提供火车分班。
+  - 样本示例 ![image](https://github.com/bolongliu/Controlled-Text-Generation-Image-Datasets/assets/92673294/d7222a65-d3ea-42ad-84a4-eb8a9b02e128)
+
+- **OxfordTVG-HIC Dataset**大规模幽默图像文本数据集
+  - 地址：https://github.com/runjiali-rl/Oxford_HIC?tab=readme-ov-file
+  - [简介](https://github.com/runjiali-rl/Oxford_HIC?tab=readme-ov-file)：这是一个用于幽默生成和理解的大型数据集。幽默是一种抽象的、主观的、依赖于情境的认知结构，涉及多种认知因素，使其生成和解释成为一项具有挑战性的任务。Oxford HIC 提供了大约 290 万个带有幽默分数的图像文本对，以训练通用的幽默字幕模型。与现有的字幕数据集相反，Oxford HIC 具有广泛的情感和语义多样性，导致脱离上下文的示例特别有利于产生幽默。
+  - 样本示例 ![image](https://github.com/bolongliu/Controlled-Text-Generation-Image-Datasets/assets/92673294/a304c7ee-1d90-4065-ac30-4cf1bd83d74d)
+
+- **Multi-Modal-CelebA-HQ**大规模人脸图像文本数据集
+  - 地址：https://github.com/IIGROUP/MM-CelebA-HQ-Dataset
+  - [简介](https://github.com/runjiali-rl/Oxford_HIC?tab=readme-ov-file)：Multi-Modal-CelebA-HQ (MM-CelebA-HQ) 是一个大规模人脸图像数据集，其中有 30k 高分辨率人脸图像，是按照 CelebA-HQ 从 CelebA 数据集中选择的。数据集中的每个图像都附有语义掩模、草图、描述性文本和具有透明背景的图像。Multi-Modal-CelebA-HQ 可用于训练和评估一系列任务的算法，包括文本到图像生成、文本引导图像操作、草图到图像生成、图像字幕和视觉问答。该数据集被引入并在 TediGAN 中使用。
+  - 样本示例 ![image](https://github.com/bolongliu/Controlled-Text-Generation-Image-Datasets/assets/92673294/3bb41c16-0209-455d-88e6-85d539636ffb)
+
+
 
 
 ## 3D 数据集
