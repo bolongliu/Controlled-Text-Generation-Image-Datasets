@@ -1,4 +1,4 @@
-# Controlled-Text-Generation-Image-Datasets
+![image](https://github.com/bolongliu/Controlled-Text-Generation-Image-Datasets/assets/92673294/bc65a58b-175f-4088-9323-c65cd2873064)# Controlled-Text-Generation-Image-Datasets
 可控文本到图像生成数据集
 
 ## 2D 数据集
@@ -24,7 +24,7 @@
   - 地址：https://shannon.cs.illinois.edu/DenotationGraph/data/index.html
   - [简介](https://shannon.cs.illinois.edu/DenotationGraph/data/index.html)：Flickr 30k 数据集包括从Flickr获取的图像。
 
-- COCO（COCO Captions） Dataset
+- **COCO（COCO Captions） Dataset**
   - 地址：https://cocodataset.org/#download
   - [简介](https://cocodataset.org/#home)：COCO Captions是一个字幕数据集，它以场景理解为目标，从日常生活场景中捕获图片数据，通过人工生成图片描述。该数据集包含330K个图文对。
 
@@ -52,6 +52,14 @@
   - 地址：https://laion.ai/blog/laion-5b/
   - [简介](https://laion.ai/blog/laion-5b/)：LAION-5B是目前已知且开源的最大规模的多模态数据集。它通过CommonCrawl获取文本和图片，然后使用CLIP过滤掉图像和文本嵌入相似度低于0.28的图文对，最终保留下来50亿个图像-文本对。该数据集包含23.2亿的英文描述，22.6亿个100+其他语言以及12.7亿的未知语。
 
+- Wikipedia-based Image Text (WIT) Dataset 基于维基百科的图像文本 (WIT) 数据集
+  - 地址：https://github.com/google-research-datasets/wit/blob/main/DATA.md
+  - [简介](https://github.com/google-research-datasets/wit/tree/main)：WIT（基于维基百科的图像文本）数据集是一个大型多模式多语言数据集，包含 3700 万多个图像文本集，其中包含 1100 万多个跨 100 多种语言的独特图像。我们以一组 10 个 tsv 文件（压缩）的形式提供 WIT。数据集总大小约为 25GB。这是整个训练数据集。如果您想快速开始，请选择任何一个大约 2.5GB 的文件，该文件将为您提供大约 10% 的数据，其中包含大约 350 万+ 图像文本示例集。
+我们还包括验证集和测试集（各 5 个文件）。
+
+- LAION-5B Dataset
+  - 地址：https://laion.ai/blog/laion-5b/
+  - [简介](https://laion.ai/blog/laion-5b/)：LAION-5B是目前已知且开源的最大规模的多模态数据集。它通过CommonCrawl获取文本和图片，然后使用CLIP过滤掉图像和文本嵌入相似度低于0.28的图文对，最终保留下来50亿个图像-文本对。该数据集包含23.2亿的英文描述，22.6亿个100+其他语言以及12.7亿的未知语。
 
 
 ## 2. 文生图微调数据集
@@ -96,10 +104,24 @@
   ./hfd.sh yuvalkirstain/pickapic_v1 --dataset --tool aria2c -x 4
   ```
 
+- DeepFashion-MultiModal
+  - 地址：https://drive.google.com/drive/folders/1An2c_ZCkeGmhJg0zUjtZF46vyJgQwIr2
+  - [简介](https://github.com/yumingj/DeepFashion-MultiModal?tab=readme-ov-file)：该数据集包括 15 个不同类别的 30 个科目。其中 9 个是活体主体（狗和猫），21 个是物体。该数据集包含每个主题的可变数量的图像 (4-6)。
+  - 论文：[Text2Human: Text-Driven Controllable Human Image Generation](https://arxiv.org/pdf/2205.15996.pdf)
 
+- **DeepFashion**
+  - 地址：https://mmlab.ie.cuhk.edu.hk/projects/DeepFashion.html
+  - [简介](https://mmlab.ie.cuhk.edu.hk/projects/DeepFashion.html)：该数据集包括 15 个不同类别的 30 个科目。其中 9 个是活体主体（狗和猫），21 个是物体。该数据集包含每个主题的可变数量的图像 (4-6)。
+  - 论文：[ViscoNet: Bridging and Harmonizing Visual and Textual Conditioning for ControlNet](https://arxiv.org/pdf/2312.03154.pdf)
+ 
+
+https://mmlab.ie.cuhk.edu.hk/projects/DeepFashion.html
 ## 3D 数据集
 ## 1. 预训练数据集
-
+- Multimodal3DIdent：从可控地面真实因素生成的图像/文本对的多模态数据集
+  - 地址：https://zenodo.org/records/7678231
+  - 简介：ICLR 2023 上发表的《多模态对比学习的可识别性结果》一文中介绍了用于生成 Multimodal3DIdent 数据集的官方代码。该数据集提供了可识别性基准，其中包含从可控地面真实因素生成的图像/文本对，其中一些在图像和文本模态之间共享，如以下示例所示。
+  - 论文：[Identifiability Results for Multimodal Contrastive Learning](https://arxiv.org/pdf/2303.09166.pdf)
 ## 2. 文生图微调数据集
 
 ## 3. 可控文本生成图像数据集
