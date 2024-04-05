@@ -66,6 +66,13 @@
   - 地址：https://github.com/ksOAn6g5/TaiSu
   - [简介](https://github.com/ksOAn6g5/TaiSu)：TaiSu：166M大规模高质量中文视觉语言预训练数据集
 
+- COYO-700M：大规模图像文本对数据集
+  - 地址：https://github.com/kakaobrain/coyo-dataset/tree/main
+  - [简介](https://github.com/kakaobrain/coyo-dataset/tree/main)：COYO-700M 是一个大型数据集，包含 747M 个图像文本对以及许多其他元属性，以提高训练各种模型的可用性。我们的数据集遵循与之前的视觉和语言数据集类似的策略，收集 HTML 文档中许多信息丰富的替代文本及其相关图像对。我们期望 COYO 用于训练流行的大规模基础模型，与其他类似数据集互补。
+  - 样本示例 ![image](https://github.com/bolongliu/Controlled-Text-Generation-Image-Datasets/assets/92673294/a603c8f0-2795-41bf-aee8-bb31207171d2)
+
+
+
 
 ## 2. 文生图微调数据集
 - DreamBooth：微调文本到图像的扩散模型以实现主题驱动的生成
