@@ -92,6 +92,7 @@
 - **COCO-Stuff** Dataset
   - 地址：https://github.com/nightrome/cocostuff
   - 简介：COCO-Stuff 使用像素级内容注释增强了流行的 COCO [2] 数据集的所有 164K 图像。这些注释可用于场景理解任务，例如语义分割、对象检测和图像字幕。
+  - 样本示例 ![image](https://github.com/bolongliu/Controlled-Text-Generation-Image-Datasets/assets/92673294/6073dce1-977f-45b4-99ca-dbc51b8fa8df)
   - 命令行下载
   ```
   # Get this repo
