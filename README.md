@@ -1,4 +1,4 @@
-![image](https://github.com/bolongliu/Controlled-Text-Generation-Image-Datasets/assets/92673294/bc65a58b-175f-4088-9323-c65cd2873064)# Controlled-Text-Generation-Image-Datasets
+# Controlled-Text-Generation-Image-Datasets
 可控文本到图像生成数据集
 
 ## 2D 数据集
@@ -27,6 +27,7 @@
 - **COCO（COCO Captions） Dataset**
   - 地址：https://cocodataset.org/#download
   - [简介](https://cocodataset.org/#home)：COCO Captions是一个字幕数据集，它以场景理解为目标，从日常生活场景中捕获图片数据，通过人工生成图片描述。该数据集包含330K个图文对。
+  - ![image](https://github.com/bolongliu/Controlled-Text-Generation-Image-Datasets/assets/92673294/bc65a58b-175f-4088-9323-c65cd2873064)
 
 - Visual Genome Dataset
   - 地址：http://visualgenome.org/
@@ -60,6 +61,10 @@
 - LAION-5B Dataset
   - 地址：https://laion.ai/blog/laion-5b/
   - [简介](https://laion.ai/blog/laion-5b/)：LAION-5B是目前已知且开源的最大规模的多模态数据集。它通过CommonCrawl获取文本和图片，然后使用CLIP过滤掉图像和文本嵌入相似度低于0.28的图文对，最终保留下来50亿个图像-文本对。该数据集包含23.2亿的英文描述，22.6亿个100+其他语言以及12.7亿的未知语。
+
+- TaiSu(太素--亿级大规模中文视觉语言预训练数据集)
+  - 地址：https://github.com/ksOAn6g5/TaiSu
+  - [简介](https://github.com/ksOAn6g5/TaiSu)：TaiSu：166M大规模高质量中文视觉语言预训练数据集
 
 
 ## 2. 文生图微调数据集
@@ -108,6 +113,8 @@
   - 地址：https://drive.google.com/drive/folders/1An2c_ZCkeGmhJg0zUjtZF46vyJgQwIr2
   - [简介](https://github.com/yumingj/DeepFashion-MultiModal?tab=readme-ov-file)：该数据集包括 15 个不同类别的 30 个科目。其中 9 个是活体主体（狗和猫），21 个是物体。该数据集包含每个主题的可变数量的图像 (4-6)。
   - 论文：[Text2Human: Text-Driven Controllable Human Image Generation](https://arxiv.org/pdf/2205.15996.pdf)
+  - ![image](https://github.com/bolongliu/Controlled-Text-Generation-Image-Datasets/assets/92673294/2a57e76b-8495-466d-9d65-38f2abb7bd71)
+
 
 - **DeepFashion**
   - 地址：https://mmlab.ie.cuhk.edu.hk/projects/DeepFashion.html
