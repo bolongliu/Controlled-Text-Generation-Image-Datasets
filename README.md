@@ -27,7 +27,7 @@
 - **COCO（COCO Captions） Dataset**
   - 地址：https://cocodataset.org/#download
   - [简介](https://cocodataset.org/#home)：COCO Captions是一个字幕数据集，它以场景理解为目标，从日常生活场景中捕获图片数据，通过人工生成图片描述。该数据集包含330K个图文对。
-  - ![image](https://github.com/bolongliu/Controlled-Text-Generation-Image-Datasets/assets/92673294/bc65a58b-175f-4088-9323-c65cd2873064)
+  - 样本示例 ![image](https://github.com/bolongliu/Controlled-Text-Generation-Image-Datasets/assets/92673294/bc65a58b-175f-4088-9323-c65cd2873064)
 
 - Visual Genome Dataset
   - 地址：http://visualgenome.org/
@@ -67,7 +67,7 @@
   - [简介](https://github.com/ksOAn6g5/TaiSu)：TaiSu：166M大规模高质量中文视觉语言预训练数据集
 
 - COYO-700M：大规模图像文本对数据集
-  - 地址：https://github.com/kakaobrain/coyo-dataset/tree/main
+  - 地址：https://huggingface.co/datasets/kakaobrain/coyo-700m
   - [简介](https://github.com/kakaobrain/coyo-dataset/tree/main)：COYO-700M 是一个大型数据集，包含 747M 个图像文本对以及许多其他元属性，以提高训练各种模型的可用性。我们的数据集遵循与之前的视觉和语言数据集类似的策略，收集 HTML 文档中许多信息丰富的替代文本及其相关图像对。我们期望 COYO 用于训练流行的大规模基础模型，与其他类似数据集互补。
   - 样本示例 ![image](https://github.com/bolongliu/Controlled-Text-Generation-Image-Datasets/assets/92673294/a603c8f0-2795-41bf-aee8-bb31207171d2)
 
