@@ -167,6 +167,12 @@
     Flickr8k_text.zip https://github.com/jbrownlee/Datasets/releases/download/Flickr8k/Flickr8k_text.zip
   ```
 
+  - **Flickr30k_dataset** 用于图像字幕的 Flick 30k 数据集
+  - 地址：https://www.kaggle.com/datasets/adityajn105/flickr30k
+  - [简介](https://www.robots.ox.ac.uk/~vgg/data/flowers/102/)：用于基于句子的图像描述和搜索的新基准集合，由 30,000 张图像组成，每张图像都配有五个不同的标题，这些标题提供了对显着实体和事件的清晰描述。…这些图像是从六个不同的 Flickr 组中选出的，往往不包含任何知名人物或地点，而是手动选择来描绘各种场景和情况
+
+  
+
 - **Nouns Dataset**自动添加标题的名词数据集卡
   - 地址：https://huggingface.co/datasets/m1guelpf/nouns
   - [简介](https://huggingface.co/datasets/m1guelpf/nouns)：用于训练名词文本到图像模型的数据集，根据名词的属性、颜色和项目自动生成名词的标题。对于每一行，数据集包含 image 和 text 键。 image 是不同大小的 PIL jpeg， text 是随附的文本标题。仅提供火车分班。
