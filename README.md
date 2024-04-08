@@ -127,16 +127,17 @@
   ./hfd.sh yuvalkirstain/pickapic_v1 --dataset --tool aria2c -x 4
   ```
 
-- DeepFashion-MultiModal
+- **DeepFashion-MultiModal**
   - 地址：https://drive.google.com/drive/folders/1An2c_ZCkeGmhJg0zUjtZF46vyJgQwIr2
-  - [简介](https://github.com/yumingj/DeepFashion-MultiModal?tab=readme-ov-file)：该数据集包括 15 个不同类别的 30 个科目。其中 9 个是活体主体（狗和猫），21 个是物体。该数据集包含每个主题的可变数量的图像 (4-6)。
+  - [简介](https://github.com/yumingj/DeepFashion-MultiModal?tab=readme-ov-file)：该数我们为每个人体图像提取 DensePose。据集是一个具有丰富多模态注释的大规模高质量人体数据集。它具有以下属性：它包含44,096张高分辨率人体图像，其中12,701张全身人体图像。对于每张全身图像，我们手动注释 24 个类别的人体解析标签。对于每张全身图像，我们手动注释关键点。每张图像都手动标注了衣服形状和纹理的属性。我们为每张图像提供文字描述。DeepFashion-MultiModal 可应用于文本驱动的人体图像生成、文本引导的人体图像操作、骨架引导的人体图像生成、人体姿势估计、人体图像字幕、人体图像的多模态学习、人体属性识别、人体解析预测等,该数据集是在 Text2Human 中提出的。
   - 论文：[Text2Human: Text-Driven Controllable Human Image Generation](https://arxiv.org/pdf/2205.15996.pdf)
   - ![image](https://github.com/bolongliu/Controlled-Text-Generation-Image-Datasets/assets/92673294/2a57e76b-8495-466d-9d65-38f2abb7bd71)
 
 
 - **DeepFashion**
   - 地址：https://mmlab.ie.cuhk.edu.hk/projects/DeepFashion.html
-  - [简介](https://mmlab.ie.cuhk.edu.hk/projects/DeepFashion.html)：该数据集包括 15 个不同类别的 30 个科目。其中 9 个是活体主体（狗和猫），21 个是物体。该数据集包含每个主题的可变数量的图像 (4-6)。
+  - [简介](https://mmlab.ie.cuhk.edu.hk/projects/DeepFashion.html)：该数据集是一个大规模的服装数据库，它有几个吸引人的特性：首先，DeepFashion包含超过80万张多样化的时尚图片，从摆好姿势的商店图片到不受约束的消费者照片，构成了最大的视觉时尚分析数据库。
+其次，DeepFashion标注了丰富的服装单品信息。该数据集中的每张图像都标有 50 个类别、1,000 个描述性属性、边界框和服装地标。第三，DeepFashion 包含超过 300,000 个跨姿势/跨域图像对。使用 DeepFashion 数据库开发了四个基准，包括属性预测、消费者到商店的衣服检索、店内衣服检索和地标检测。这些基准的数据和注释也可以用作以下计算机视觉任务的训练和测试集，例如衣服检测、衣服识别和图像检索。
   - 论文：[ViscoNet: Bridging and Harmonizing Visual and Textual Conditioning for ControlNet](https://arxiv.org/pdf/2312.03154.pdf)
 
 - **COCO（COCO Captions） Dataset**
