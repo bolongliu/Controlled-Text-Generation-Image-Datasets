@@ -129,7 +129,7 @@
 
 - **DeepFashion-MultiModal**
   - 地址：https://drive.google.com/drive/folders/1An2c_ZCkeGmhJg0zUjtZF46vyJgQwIr2
-  - [简介](https://github.com/yumingj/DeepFashion-MultiModal?tab=readme-ov-file)：该数我们为每个人体图像提取 DensePose。据集是一个具有丰富多模态注释的大规模高质量人体数据集。它具有以下属性：它包含44,096张高分辨率人体图像，其中12,701张全身人体图像。对于每张全身图像，我们手动注释 24 个类别的人体解析标签。对于每张全身图像，我们手动注释关键点。每张图像都手动标注了衣服形状和纹理的属性。我们为每张图像提供文字描述。DeepFashion-MultiModal 可应用于文本驱动的人体图像生成、文本引导的人体图像操作、骨架引导的人体图像生成、人体姿势估计、人体图像字幕、人体图像的多模态学习、人体属性识别、人体解析预测等,该数据集是在 Text2Human 中提出的。
+  - [简介](https://github.com/yumingj/DeepFashion-MultiModal?tab=readme-ov-file)：该数据集是一个具有丰富多模态注释的大规模高质量人体数据集。它具有以下属性：它包含44,096张高分辨率人体图像，其中12,701张全身人体图像。对于每张全身图像，我们手动注释 24 个类别的人体解析标签。对于每张全身图像，我们手动注释关键点。每张图像都手动标注了衣服形状和纹理的属性。我们为每张图像提供文字描述。DeepFashion-MultiModal 可应用于文本驱动的人体图像生成、文本引导的人体图像操作、骨架引导的人体图像生成、人体姿势估计、人体图像字幕、人体图像的多模态学习、人体属性识别、人体解析预测等,该数据集是在 Text2Human 中提出的。
   - 论文：[Text2Human: Text-Driven Controllable Human Image Generation](https://arxiv.org/pdf/2205.15996.pdf)
   - ![image](https://github.com/bolongliu/Controlled-Text-Generation-Image-Datasets/assets/92673294/2a57e76b-8495-466d-9d65-38f2abb7bd71)
 
