@@ -157,6 +157,10 @@
   - 地址：https://www.robots.ox.ac.uk/~vgg/data/flowers/102/
   - [简介](https://www.robots.ox.ac.uk/~vgg/data/flowers/102/)：我们创建了一个 102 个类别的数据集，由 102 个花卉类别组成。这些花被选为英国常见的花。每个类别由 40 到 258 张图像组成。
   - 样本示例 ![image](https://github.com/bolongliu/Controlled-Text-Generation-Image-Datasets/assets/92673294/b89fa24d-2711-406f-8657-dc20587fe469)
+  - ![image](https://github.com/bolongliu/Controlled-Text-Generation-Image-Datasets/assets/92673294/9e401749-365c-4271-84d8-8f273202b76b)
+  - 参考：https://blog.csdn.net/air__heaven/article/details/136141343
+  - 下载好图像数据集后，其次需要下载对应的文本数据集，同样使用谷歌云盘下载：https://drive.google.com/file/d/1G4QRcRZ_s57giew6wgnxemwWRDb-3h5P/view
+
 
 - **Flickr8k_dataset**
   - 地址：https://www.robots.ox.ac.uk/~vgg/data/flowers/102/
